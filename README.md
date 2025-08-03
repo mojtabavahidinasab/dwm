@@ -1,11 +1,11 @@
 # ویرایش‌ها
 
 
-- keycodes patch
-- bidi patch
 - تغییر دبیره پیشفرض از `monospace` به `Amiri`
 - افزودن میانر `MODKEY|ShiftMask, XK_Insert` برای فراخوانی `~/.local/bin/snippet`
 - ویرایش میانبر `MODKEY, XK_F1` برای شامل شدن راهنمای پارسی زبان. پرسیدن از کاربر برای نمایش راهنمای پارسی یا انگلیسی ‍`~/.local/bin/guide` و `~/.local/share/larbs/larbs.pdf`
+- keycodes patch
+- bidi patch
 - افزودن میانبر برای گرداندن نمایشگر:
 	- میانبر `MODKEY|ControlMask, XK_h` برای گردش به چپ
 	- میانبر `MODKEY|ControlMask, XK_j` برای گردش به پایین
