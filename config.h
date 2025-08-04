@@ -244,7 +244,7 @@ static const Key keys[] = {
 	{ MODKEY,			118,     spawn,                  SHCMD("xdotool type $(grep -v '^#' ~/.local/share/larbs/snippets/urls | dmenu -i -l 33 | cut -d' ' -f1)") },
 	{ MODKEY|ShiftMask,		118,     spawn,          	       SHCMD("snippet") },
 
-	{ MODKEY,			67,         spawn,                  SHCMD("groff -mom /usr/local/share/dwm/larbs.mom -Tpdf | zathura -") },
+	{ MODKEY,			67,         spawn,                  SHCMD("guide") },
 	{ MODKEY,			68,         spawn,                  {.v = (const char*[]){ "tutorialvids", NULL } } },
 	{ MODKEY,			69,         spawn,                  {.v = (const char*[]){ "displayselect", NULL } } },
 	{ MODKEY,			70,         spawn,                  SHCMD(TERMINAL " -e pulsemixer; kill -44 $(pidof dwmblocks)") },
